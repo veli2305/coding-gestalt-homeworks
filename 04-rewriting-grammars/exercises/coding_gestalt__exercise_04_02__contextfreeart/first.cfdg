@@ -1,0 +1,36 @@
+// Luis Hurtarte, copyright 2014
+
+startshape blah
+
+CF::Background = [hue 360 sat -1 b 1]
+CF::MinimumSize = 0.1
+ 
+
+shape blah {
+
+ blah2 [alpha -1 s 1 hue 210 sat 1 b 1]
+ blah2 [alpha -1 s 0.8 hue 310 sat 1 b 1]
+ blah2 [alpha -1 s 0.6 hue 260 sat 1 b 1]
+ blah2 [alpha -1 s 1 hue 310 sat 1 b 1]
+ blah2 [alpha -1 s 1 hue 310 sat 1 b 1]
+ blah2 [alpha -1 s 1 hue 210 sat 1 b 1]
+}
+
+
+
+shape blah2 {
+
+CIRCLE []
+ blah2 [alpha 0.00001 r 200 s 0.9997 ]
+
+
+}
+
+rule 0.1{
+blah2 [r 130 x 0.4]
+
+}
+
+rule 0.2{
+blah2 [x 0.5]
+}
